@@ -37,7 +37,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8178 --region dummy
 
 ## Persistence 
 
-The container exposes the volume `/opt/dynamodb/data` which can be mapped to 
+The container exposes the volume `/var/dynamodb` which can be mapped to 
 a local path. 
 
 Inspired by [deangiberson/aws-dynamodb-local][inspiration].
